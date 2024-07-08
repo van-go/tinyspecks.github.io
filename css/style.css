@@ -54,19 +54,24 @@ a:hover {
 .callout-container {
     height: 100vh;
     background-image: url('../images/tiny_specks_background_together.png');
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    align-items: center;
-    width: 100%;
-    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.callout {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
 }
 
 .content {
@@ -88,8 +93,6 @@ a:hover {
 
 /* basic font settings, positioning and removal of style, margin and padding from list */
 .social-footer {
-    position: fixed;
-    bottom: 0;
     width: 100%;
     background: rgba(0, 0, 0, 0.5); /* Optional: for better visibility */
     text-align: center;

@@ -93,13 +93,15 @@ a:hover {
 
 /* basic font settings, positioning and removal of style, margin and padding from list */
 .social-footer {
+    /* position, bottom, z-index are used to lock the footer */
     position: fixed;
     bottom: 0;
-    opacity: 0%;
+    z-index: 1000;
     width: 100%;
     background: black;
     text-align: center;
     padding: 10px 0;
+
 }
 
 .social-list {

@@ -3,9 +3,8 @@
 @font-face {
 
     /* Imports non-google font */
-    font-family: "Kalligraphia";
-    src: url("../fonts/Kalligraphia-D-OT_25803.ttf");
-
+    font-family: "Eroded";
+    src: url("../fonts/ERODED PERSONAL USE.ttf");
 }
 
 /* Basic settings for main text font */
@@ -335,7 +334,7 @@ a:hover {
 /* sets font for section titles */
 
 .text-title {
-    font-family: "Kalligraphia", sans-serif;
+    font-family: "Eroded", sans-serif;
 }
 
 /* basic font settings */
@@ -530,7 +529,7 @@ video {
 /* basic font settings */
 
 .lead.social-text {
-    font-family: "Kalligraphia", sans-serif;
+    font-family: "Eroded", sans-serif;
     font-size: 35px;
     color: white;
     text-decoration: underline;

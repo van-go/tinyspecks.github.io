@@ -237,7 +237,7 @@ a:hover {
 
 /* basic settings for link items */
 .navbar-default .navbar-nav > li > a {
-    color: white;
+    color: red;
     font-size: 20px;
 }
 

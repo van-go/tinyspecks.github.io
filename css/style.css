@@ -599,6 +599,7 @@ input .email-box {
     /*Changes navbar display type*/
     
     .navbar {
+        margin-top: 10px;
         margin-bottom: 0;
         position: fixed;
         background-color: black;
@@ -615,7 +616,10 @@ input .email-box {
     /* aligns navbar items in the center */
     
     .navbar .navbar-collapse {
-        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
     }
     
     /* styles navbar items spacing*/

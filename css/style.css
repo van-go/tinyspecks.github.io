@@ -487,6 +487,9 @@ video {
     padding: 0;
     list-style: none;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
 }
 
 /* displays list horizontally instead of vertically */
@@ -499,7 +502,7 @@ video {
 /* colors font awesome social icons black */
 
 .fa {
-    color: black;
+    color: white;
 }
 
 /* styles newsletter subscription */

@@ -212,7 +212,7 @@ a:hover {
     background-color: black;
     border: 0;
     font-family: "Eroded", monospace;
-    font-size: 45px;
+    font-size: 50px;
     letter-spacing: 3px;
 }
 
@@ -337,6 +337,7 @@ a:hover {
 
 .text-title {
     font-family: "Eroded", sans-serif;
+    font-size: 100px;
 }
 
 /* basic font settings */
@@ -634,7 +635,7 @@ input .email-box {
     
     .navbar-default .navbar-nav>li>a {
         transition: text-decoration 0.5s ease-in-out;
-        font-size: 45px;
+        font-size: 50px;
         font-family: "Eroded", monospace;
         color: red;
         letter-spacing: 3px;

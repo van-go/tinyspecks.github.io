@@ -233,7 +233,7 @@ a:hover {
 /* when a link item is interacted with it remains white */
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > li > a:hover {
-    color: white;
+    color: red;
 }
 
 /* basic settings for link items */

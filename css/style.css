@@ -64,6 +64,9 @@ a:hover {
     align-items: center;
     width: 100%;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 /* padding added to top and bottom of sections*/
@@ -548,6 +551,8 @@ input .email-box {
         align-items: center;
         justify-content: center;
         position: relative;
+        flex-direction: column;
+        justify-content: space-between;
     }
 
     /*............................................................  Logo */

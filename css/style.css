@@ -93,8 +93,10 @@ a:hover {
 
 /* basic font settings, positioning and removal of style, margin and padding from list */
 .social-footer {
+    position: fixed;
+    bottom: 0;
     width: 100%;
-    opacity: 0.5;
+    background: rgba(0, 0, 0, 0.5); /* Optional: for better visibility */
     text-align: center;
     padding: 10px 0;
 }
@@ -120,7 +122,7 @@ a:hover {
 /* colors font awesome social icons black */
 
 .fa {
-    color: white;
+    color: red;
 }
 
 /* background image settings */

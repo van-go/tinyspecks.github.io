@@ -211,57 +211,57 @@ a:hover {
 }
 
 /* removes border from expanded menu button in mobile version of navbar */
-
 .navbar-default .navbar-collapse {
-
     border-color: black;
     width: 100%;
 }
 
-/* When expand menu button (mobile only)is selected its background colors remains transparent */
-
-.navbar-default .navbar-toggle:hover .navbar-default .navbar-toggle:visited .navbar-default .navbar-toggle:active .navbar-default .navbar-toggle:focus {
+/* When expand menu button (mobile only) is selected its background colors remain transparent */
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:visited,
+.navbar-default .navbar-toggle:active,
+.navbar-default .navbar-toggle:focus {
     background-color: transparent;
 }
 
 /* colors the bars in the expand menu button to white */
-
 .navbar-default .navbar-toggle .icon-bar {
     background-color: white;
 }
 
 /* when a link item is interacted with it remains white */
-
-.navbar-default .navbar-nav>li>a:focus,
-.navbar-default .navbar-nav>li>a:hover {
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
     color: white;
 }
 
 /* basic settings for link items */
-
-.navbar-default .navbar-nav>li>a {
+.navbar-default .navbar-nav > li > a {
     color: white;
     font-size: 20px;
 }
 
 /* sets font type for link items in mobile nav */
-
 .navbar a {
     font-family: "Kalligraphia", sans-serif;
 }
 
-/*alterations made to Bootstraps navbar-brand class for project specific navbar set up on mobile */
-
+/* alterations made to Bootstrap's navbar-brand class for project-specific navbar setup on mobile */
 .navbar-brand {
     font-size: 25px;
     padding-top: 18px;
 }
 
-/*Sets background color to transparent*/
-
+/* Sets background color to transparent */
 .navbar-default .navbar-toggle:hover {
     background-color: transparent;
 }
+
+/* Add padding to the body to prevent content from being hidden under the navbar */
+body {
+    padding-top: 70px; /* Adjust this value based on the height of your navbar */
+}
+
 
 /*............................................................  Jumbotron Section */
 

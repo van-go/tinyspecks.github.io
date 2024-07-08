@@ -244,7 +244,8 @@ a:hover {
 /* basic settings for link items */
 .navbar-default .navbar-nav > li > a {
     color: red;
-    font-size: 20px;
+    font-size: 50px;
+    text-align: center;
 }
 
 /* sets font type for link items in mobile nav */

@@ -212,6 +212,7 @@ a:hover {
     z-index: 1000;
     background-color: black;
     border: 0;
+    font-family: Consolas, monospace;
 }
 
 /* removes border from expanded menu button in mobile version of navbar */
@@ -247,13 +248,14 @@ a:hover {
 
 /* sets font type for link items in mobile nav */
 .navbar a {
-    font-family: "Kalligraphia", sans-serif;
+    font-family: Consolas, monospace;
 }
 
 /* alterations made to Bootstrap's navbar-brand class for project-specific navbar setup on mobile */
 .navbar-brand {
     font-size: 25px;
     padding-top: 18px;
+    font-family: Consolas, monospace;
 }
 
 /* Sets background color to transparent */

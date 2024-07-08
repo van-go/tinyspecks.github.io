@@ -502,7 +502,7 @@ video {
     justify-content: center;
     gap: 15px;
     height: 100px;
-    align-items: flex-end;
+    align-self: flex-end;
     margin-top: auto;
 }
 

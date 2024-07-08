@@ -584,8 +584,6 @@ input .email-box {
     
     .img-responsive {
         padding-top: 90px;
-
-
     }
 
     /*............................................................  Navbar Section */
@@ -596,7 +594,6 @@ input .email-box {
         margin-bottom: 0;
         position: fixed;
         background-color: black;
-        
     }
     
     /*navbar display settings*/
@@ -624,7 +621,7 @@ input .email-box {
     /* removes background color */
     
     .navbar {
-        background-color: rgba(0, 0, 0, 0);
+        background-color: black;
     }
     
     /* font styles and transition settings for navbar items*/

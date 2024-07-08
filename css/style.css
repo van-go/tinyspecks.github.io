@@ -93,6 +93,8 @@ a:hover {
 
 /* basic font settings, positioning and removal of style, margin and padding from list */
 .social-footer {
+    position: fixed;
+    bottom: 0;
     width: 100%;
     background: black;
     text-align: center;

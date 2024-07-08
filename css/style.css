@@ -501,7 +501,9 @@ video {
     display: flex;
     justify-content: center;
     gap: 15px;
+    height: 100px;
     align-items: flex-end;
+    margin-top: auto;
 }
 
 /* displays list horizontally instead of vertically */

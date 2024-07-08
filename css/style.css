@@ -214,6 +214,7 @@ a:hover {
 .navbar-default .navbar-collapse {
     border-color: black;
     width: 100%;
+    position: fixed;
 }
 
 /* When expand menu button (mobile only) is selected its background colors remain transparent */
@@ -226,7 +227,7 @@ a:hover {
 
 /* colors the bars in the expand menu button to white */
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: white;
+    background-color: red;
 }
 
 /* when a link item is interacted with it remains white */

@@ -214,7 +214,6 @@ a:hover {
 .navbar-default .navbar-collapse {
     border-color: black;
     width: 100%;
-    position: fixed;
 }
 
 /* When expand menu button (mobile only) is selected its background colors remain transparent */
@@ -596,7 +595,8 @@ input .email-box {
     
     .navbar {
         margin-bottom: 0;
-        position: absolute;
+        position: fixed;
+        background-color: black;
         
     }
     
@@ -642,6 +642,7 @@ input .email-box {
     .navbar-default .navbar-nav>li>a:hover,
     .navbar-default .navbar-nav>li>a:active {
         text-decoration: underline;
+        color: red;
     }
 
 

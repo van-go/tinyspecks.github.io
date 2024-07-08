@@ -101,6 +101,7 @@ a:hover {
     height: 10%;
     align-self: flex-end;
     margin-top: auto;
+    vertical-align: bottom;
 }
 
 /* displays list horizontally instead of vertically */

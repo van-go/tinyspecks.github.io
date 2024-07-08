@@ -630,15 +630,15 @@ input .email-box {
         transition: text-decoration 0.5s ease-in-out;
         font-size: 35px;
         font-family: "Kalligraphia", sans-serif;
-        color: white;
+        color: red;
     }
     
     /* when navbar items are interacted with they are underlined */
     
     .navbar-default .navbar-nav>li>a:hover,
     .navbar-default .navbar-nav>li>a:active {
-        text-decoration: underline;
-        color: red;
+        text-decoration: none;
+        font-weight: 900;
     }
 
 

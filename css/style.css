@@ -643,17 +643,6 @@ input .email-box {
         text-decoration: underline;
     }
 
-    .social-footer {
-        padding: 5px 0;  /* Reduce padding */
-    }
-
-    .social-list {
-        font-size: 20px;  /* Smaller font size for smaller screens */
-    }
-
-    .social-list li {
-        margin: 0 5px;  /* Smaller margin */
-    }
 
     /*............................................................  Jumbotron Section*/
     

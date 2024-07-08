@@ -87,6 +87,14 @@ a:hover {
 }
 
 /* basic font settings, positioning and removal of style, margin and padding from list */
+.social-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Optional: for better visibility */
+    text-align: center;
+    padding: 10px 0;
+}
 
 .social-list {
     font-size: 45px;
@@ -94,14 +102,9 @@ a:hover {
     margin: 0px;
     padding: 0;
     list-style: none;
-    text-align: center;
     display: flex;
     justify-content: center;
     gap: 15px;
-    height: 10%;
-    align-self: flex-end;
-    margin-top: auto;
-    vertical-align: bottom;
 }
 
 /* displays list horizontally instead of vertically */

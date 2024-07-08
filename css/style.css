@@ -82,7 +82,38 @@ a:hover {
 .content-container {
     padding-top: 75px;
     padding-bottom: 75px;
+    height: 90%;
 
+}
+
+/* basic font settings, positioning and removal of style, margin and padding from list */
+
+.social-list {
+    font-size: 45px;
+    font-weight: 400;
+    margin: 0px;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    height: 10%;
+    align-self: flex-end;
+    margin-top: auto;
+}
+
+/* displays list horizontally instead of vertically */
+
+.social-list li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+/* colors font awesome social icons black */
+
+.fa {
+    color: white;
 }
 
 /* background image settings */
@@ -487,36 +518,6 @@ video {
     font-size: 35px;
     color: white;
     text-decoration: underline;
-}
-
-/* basic font settings, positioning and removal of style, margin and padding from list */
-
-.social-list {
-    font-size: 45px;
-    font-weight: 400;
-    margin: 0px;
-    padding: 0;
-    list-style: none;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    height: 100px;
-    align-self: flex-end;
-    margin-top: auto;
-}
-
-/* displays list horizontally instead of vertically */
-
-.social-list li {
-    display: inline-block;
-    margin: 0 10px;
-}
-
-/* colors font awesome social icons black */
-
-.fa {
-    color: white;
 }
 
 /* styles newsletter subscription */

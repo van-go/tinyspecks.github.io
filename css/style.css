@@ -212,6 +212,8 @@ a:hover {
     background-color: black;
     border: 0;
     font-family: "Eroded", monospace;
+    font-size: 45px;
+    letter-spacing: 3px;
 }
 
 /* removes border from expanded menu button in mobile version of navbar */

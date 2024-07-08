@@ -212,7 +212,7 @@ a:hover {
     z-index: 1000;
     background-color: black;
     border: 0;
-    font-family: Consolas, monospace;
+    font-family: Roboto, monospace;
 }
 
 /* removes border from expanded menu button in mobile version of navbar */
@@ -248,14 +248,14 @@ a:hover {
 
 /* sets font type for link items in mobile nav */
 .navbar a {
-    font-family: Consolas, monospace;
+    font-family: Roboto, monospace;
 }
 
 /* alterations made to Bootstrap's navbar-brand class for project-specific navbar setup on mobile */
 .navbar-brand {
     font-size: 25px;
     padding-top: 18px;
-    font-family: Consolas, monospace;
+    font-family: Roboto, monospace;
 }
 
 /* Sets background color to transparent */
@@ -631,7 +631,7 @@ input .email-box {
     .navbar-default .navbar-nav>li>a {
         transition: text-decoration 0.5s ease-in-out;
         font-size: 35px;
-        font-family: Consolas, monospace;;
+        font-family: Roboto, monospace;;
         color: red;
     }
     

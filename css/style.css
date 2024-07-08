@@ -105,14 +105,14 @@ a:hover {
 }
 
 .social-list {
-    font-size: 45px;
+    font-size: 25px;
     font-weight: 400;
     margin: 0px;
     padding: 0;
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 10px;
 }
 
 /* displays list horizontally instead of vertically */

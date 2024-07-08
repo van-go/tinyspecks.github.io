@@ -367,6 +367,9 @@ a:hover {
     margin-bottom: 25px;
 }
 
+.band-container {
+    background-color: grey;
+}
 /* added 25 px of space at the bottom */
 
 .gigs .page-header {

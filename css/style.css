@@ -94,7 +94,7 @@ a:hover {
 /* basic font settings, positioning and removal of style, margin and padding from list */
 .social-footer {
     width: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Optional: for better visibility */
+    background: black
     text-align: center;
     padding: 10px 0;
 }

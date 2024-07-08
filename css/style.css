@@ -262,11 +262,6 @@ a:hover {
     background-color: transparent;
 }
 
-/* Add padding to the body to prevent content from being hidden under the navbar */
-body {
-    padding-top: 70px; /* Adjust this value based on the height of your navbar */
-}
-
 
 /*............................................................  Jumbotron Section */
 

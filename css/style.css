@@ -510,7 +510,7 @@ p .section-text {
 .gallery {
     --size: 100px;
     display: grid;
-    grid-template-columns: repeat(6, var(--size));
+    grid-template-columns: repeat(10, var(--size));
     grid-auto-rows: var(--size);
     gap: 5px;
     place-items: start center;

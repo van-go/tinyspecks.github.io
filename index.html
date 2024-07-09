@@ -39,9 +39,9 @@
                 <ul class="nav navbar-nav">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#band">Band Bio</a></li>
-                    <li><a href="#gigs">Shows</a></li>
-                    <li><a href="#music">Media</a></li>
-                    <li><a href="#gallery">EPK</a></li>
+                    <li><a href="#shows">Shows</a></li>
+                    <li><a href="#media">Media</a></li>
+                    <li><a href="#presskit">EPK</a></li>
                     <!-- <li><a href="#video">Videos</a></li> -->
                 </ul>
             </div>
@@ -119,7 +119,7 @@
         <div class="gig-opaque-overlay">&nbsp;</div>
         <div class="container-fluid  content-container ">
             <!-- Shows -->
-            <section id="gigs">
+            <section id="shows">
                 <div class="row">
                     <div class="col-xs-12">
                         <div class="page-header">
@@ -185,8 +185,8 @@
     </div>
     <div class="container-wrapper music-container">
         <div class="container-fluid content-container">
-            <!-- Music -->
-            <section id="music">
+            <!-- Media -->
+            <section id="media">
                 <div class="row">
                     <br>
                     <div class="col-xs-12">
@@ -203,13 +203,13 @@
                     </div>
                 </div>
             </section>
-            <!-- /.music -->
+            <!-- /.media -->
         </div>
     </div>
     <div class="container-wrapper gallery-container">
         <div class="opaque-overlay">&nbsp;</div>
         <div class="container-fluid content-container">
-            <section id="gallery">
+            <section>
                 <div class="row">
                     <div class="col-xs-12">
                         <div class="page-header">
@@ -261,7 +261,7 @@
     <div class="container-wrapper video-container">
         <div class="container-fluid content-container">
             <!-- Video -->
-            <section id="video">
+            <section>
                 <div class="row">
                     <div class="col-xs-12">
                         <div class="page-header">
@@ -282,75 +282,35 @@
             <!-- /.video -->
         </div>
     </div>
-    <div class="container-wrapper social-container">
-        <footer>
-            <div class="container-fluid content-container ">
-                <!-- Social -->
+    <div class="container-wrapper gallery-container">
+        <div class="opaque-overlay">&nbsp;</div>
+        <div class="container-fluid content-container">
+            <section id="presskit">
                 <div class="row">
                     <div class="col-xs-12">
                         <div class="page-header">
-                            <h2 class="text-title social-title">Follow The Monkees</h2>
-                            <hr class="block-divider block-divider--black">
+                            <h2 class="text-title white-title">Press Kit</h2>
                             <br>
                         </div>
-                        <br>
-                        <form class="contact-form" id="signup" method="get">
-                            <input class="email-box" name="email" placeholder="Enter email to get updates" required type="email">
-                            <input class="btn--cta " id="submit-button" type="submit" value="Subscribe">
-                        </form>
-                        <br>
-                        <br>
-                        <p class="text-muted text-center">Created By Cian O'Gralaigh. </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <div class="container-wrapper social-container">
+        <footer>
+            <div class="container-fluid content-container ">
+                <!-- Footer -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <p class="text-muted text-center">Created By tiny specks </p>
                         <br>
                         <p class="text-center"><a id="back" href="#top">Back to top</a></p>
                     </div>
                 </div>
-                <!-- /.social -->
+                <!-- /.footer -->
             </div>
         </footer>
-    </div>
-    <div class="modal fade" id="bookingModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <!-- Modal -->
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="myModalLabel">Book The Monkees!</h4>
-                </div>
-                <div class="modal-body">
-                    <form>
-                        <div class="form-group">
-                            <label for="name">Full Name*</label>
-                            <input type="text" class="form-control" id="name" placeholder="Full Name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email Address*</label>
-                            <input type="email" class="form-control" id="email" placeholder="Email" required>
-                            <p class="help-block">We'll never share your email address with anyone</p>
-                        </div>
-                        <div class="form-group">
-                            <label for="event">Event Type*</label>
-                            <select class="form-control" id="event" required>
-                                        <option disabled value="" selected hidden>Select an event type</option>
-                                        <option>Wedding</option>
-                                        <option>Private Function</option>
-                                        <option>Christmas Party</option>
-                                        <option>Corporate Event</option>
-                                        <option>Funeral</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="date">Date*</label>
-                            <input type="date" class="form-control" id="date" required>
-                            <p class="help-block">* Required</p>
-                        </div>
-                        <div class="text-center">
-                            <input class="btn btn-success" type="submit" name="btnADD" id="btnADD" value="Submit Booking" onclick="disableButton(this)"/>
-                        </div> <br>
-                    </form>
-                </div>
-            </div>
-        </div>
     </div>
 
     <!-- Bootstrap JS -->

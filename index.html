@@ -215,7 +215,7 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <div class="page-header">
-                            <h2 class="text-title white-title">Photos</h2>
+                            <h2 class="text-title white-title">Photos test</h2>
                             <br>
                         </div>
                     </div>
@@ -311,22 +311,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
     <script>
-        // Open the Modal
-        function openModal() {
-            document.getElementById('gallery').style.display = "block";
-        }
-
-        // Close the Modal
-        function closeModal() {
-            document.getElementById('gallery').style.display = "none";
-        }
- 
-        function disableButton(button) {
-            button.disabled = true;
-            button.value = "Booking Sent"
-            alert("Booking Sent");
-            button.form.submit();
-        }
         function openModal(element) {
             document.getElementById('modalImage').src = element.src;
             $('#imageModal').modal('show');

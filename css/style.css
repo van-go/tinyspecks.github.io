@@ -214,6 +214,11 @@ a:hover {
     background-color: white;
 }
 
+.presskit-container {
+    background-color: black;
+    color: white; /* Ensures the text remains readable */
+}
+
 /*............................................................  Logo */
 
 /* alterations to the bootstrap class img-responsive*/
@@ -536,11 +541,11 @@ p .section-text {
 /*For uniform sizing */
 
 .gallery {
-    --size: 100px;
+    --size: 75px;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-auto-rows: 1fr;
-    gap: 5px;
+    gap: 15px;
     place-items: center;
     margin-bottom: var(--size);
     position: relative;

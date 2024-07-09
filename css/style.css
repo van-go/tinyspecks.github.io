@@ -175,7 +175,7 @@ a:hover {
 .embed-responsive {
     position: relative;
     display: block;
-    width: 50%;
+    width: 100%;
     padding: 0;
     overflow: hidden;
     padding-bottom: 56.25%; /* 16:9 aspect ratio */
@@ -187,8 +187,8 @@ a:hover {
     left: 0;
     bottom: 0;
     right: 0;
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    height: 100%;
     border: 0;
 }
 /* background color setting */
@@ -564,7 +564,7 @@ p .section-text {
     transition: clip-path 0.25s, filter 0.25s;
     z-index: 1;
     transform: scale(4);
-    position: absolute;
+    position: relative;
 }
 
 .gallery:has(img:hover) img:not(:hover) {

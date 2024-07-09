@@ -139,7 +139,7 @@ a:hover {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 100%;
+    height: 50%;
     position: relative;
     background-position: center center;
     background-repeat: no-repeat;
@@ -428,6 +428,12 @@ blockquote {
 /* sets color of text to white */
 
 .gigs-text {
+    color: white;
+}
+
+.gigs-table,
+.gigs-table td,
+.gigs-table th {
     color: white;
 }
 

@@ -219,6 +219,14 @@ a:hover {
     color: white; /* Ensures the text remains readable */
 }
 
+.content-container {
+    padding: 20px; /* Optional: Adds padding to the container for better spacing */
+}
+
+.white-title {
+    color: white;
+}
+
 /*............................................................  Logo */
 
 /* alterations to the bootstrap class img-responsive*/

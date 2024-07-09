@@ -523,17 +523,9 @@ p .section-text {
     margin-bottom: 5px; /* to match column gap */
 }
 
-/* Thumbnail size */
-.gallery a {
-    display: block;
-    margin-bottom: 5px;
-}
-
-.gallery a img {
+.modal-img {
     width: 100%;
-    height: auto;
 }
-
 /*............................................................ Video Section*/
 
 /* colors text white */

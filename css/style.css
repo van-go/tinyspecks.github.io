@@ -535,6 +535,7 @@ p .section-text {
     clip-path: path("M0,0 C0,0 200,0 200,0 200,0 200,100 200,100 200,100 200,200 200,200 200,200 100,200 100,200 100,200 100,200 0,200 0,200 0,100 0,100 0,100 0,100 0,100Z");
     transition: clip-path 0.25s, filter 0.25s;
     z-index: 1;
+    transform: scale(2)
 }
 
 .gallery:has(img:hover) img:not(:hover) {

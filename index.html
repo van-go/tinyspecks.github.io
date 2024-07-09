@@ -306,11 +306,26 @@
                 <!-- /.footer -->
             </section>
         </div>
+        <!-- The Modal/Lightbox -->
+        <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+            <span class="close" onclick="closeLightbox()">&times;</span>
+            <img class="lightbox-content" id="lightbox-img">
+        </div>
     </div>
 
     <!-- Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script>
+        function openLightbox(src) {
+            document.getElementById('lightbox').style.display = 'block';
+            document.getElementById('lightbox-img').src = src;
+        }
+    
+        function closeLightbox() {
+            document.getElementById('lightbox').style.display = 'none';
+        }
+    </script>
 </body>
 
 </html>

@@ -140,7 +140,7 @@ a:hover {
     -o-background-size: cover;
     background-size: cover;
     height: 50%;
-    width: auto;
+    width: 50%;
     position: relative;
     background-position: center center;
     background-repeat: no-repeat;

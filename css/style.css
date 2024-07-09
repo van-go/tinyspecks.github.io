@@ -134,7 +134,7 @@ a:hover {
 /* background image settings */
 
 .gigs-container {
-    background-image: url("../images/live.jpg");
+    background-image: url("../images/band_live.png");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

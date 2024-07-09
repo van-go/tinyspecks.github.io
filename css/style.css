@@ -434,6 +434,7 @@ blockquote {
 .gigs-table,
 .gigs-table td,
 .gigs-table th {
+    text-align: center;
     color: white;
 }
 

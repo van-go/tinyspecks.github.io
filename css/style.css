@@ -529,12 +529,12 @@ body table {
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     justify-items: center;
+    align-items: center;
 }
 
 .thumbnail {
     width: 150px; /* Adjust the size as needed */
     height: auto;
-    margin: 5px;
     cursor: pointer;
     transition: transform 0.3s;
 }

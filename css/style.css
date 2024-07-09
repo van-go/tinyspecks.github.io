@@ -215,17 +215,18 @@ a:hover {
 }
 
 .presskit-container {
-    background-color: black;
-    color: white; /* Ensures the text remains readable */
+    background-image: url("../images/tweedys_together_bw.JPG");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-.content-container {
-    padding: 20px; /* Optional: Adds padding to the container for better spacing */
-}
-
-.white-title {
-    color: white;
-}
 
 /*............................................................  Logo */
 

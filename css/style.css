@@ -524,6 +524,12 @@ body table {
 
 /* ........................................................ Press Kit Section */
 
+.thumbnail-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
 .thumbnail {
     width: 100px; /* Adjust the size as needed */
     height: auto;

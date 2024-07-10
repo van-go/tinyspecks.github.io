@@ -487,6 +487,11 @@ blockquote {
     color: white;
 }
 
+.upcoming {
+    color: yellow;
+    font-weight: 300;
+}
+
 /* sets color of text inside table to white */
 
 body table {
@@ -495,12 +500,6 @@ body table {
 
 /* styles sold out! to look like the other live links */
 
-.dead-link {
-    color: white;
-    text-decoration: none;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    font-weight: 300;
-}
 
 .label {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;

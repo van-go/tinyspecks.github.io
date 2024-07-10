@@ -55,7 +55,7 @@ a:hover {
 /* base code from whiskey drop module, altered to fit project*/
 
 .callout-container {
-    height: 1500px;
+    height: 1200px;
     background-image: url('../images/tiny_specks_background.png');
     background-size: cover;
     background-position: center center;
@@ -139,7 +139,7 @@ a:hover {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 900px;
+    height: 750px;
     position: relative;
     background-position: center center;
     background-repeat: no-repeat;
@@ -178,7 +178,7 @@ a:hover {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 900px;
+    height: 1200px;
     position: relative;
     background-position: center center;
     background-repeat: no-repeat;
@@ -191,7 +191,7 @@ a:hover {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 500px;
+    height: 750px;
     position: relative;
     background-position: center center;
     background-repeat: no-repeat;
@@ -252,7 +252,7 @@ a:hover {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 1700px;
+    height: 750px;
     position: relative;
     background-position: center center;
     background-repeat: no-repeat;

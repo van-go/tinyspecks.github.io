@@ -541,6 +541,7 @@ body table {
 
 .thumbnail-grid p {
     color: white; /* Make the text white */
+    text-align: center;
 }
 
 .thumbnail-container {

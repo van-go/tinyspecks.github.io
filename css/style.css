@@ -208,7 +208,6 @@ a:hover {
 
 .embed-responsive {
     position: relative;
-    justify-content: center;
     display: block;
     width: 75%;
     padding: 0;
@@ -218,7 +217,6 @@ a:hover {
 
 .embed-responsive .embed-responsive-item {
     position: absolute;
-    justify-content: center;
     top: 0;
     left: 0;
     bottom: 0;

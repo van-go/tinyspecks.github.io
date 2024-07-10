@@ -468,6 +468,11 @@ blockquote {
     font-size: 14px;
 }
 
+.media-left img {
+    display: block;
+    margin-top: 0; /* Ensures there's no margin at the top */
+}
+
 /*............................................................  Gigs Section */
 
 /* sets color of text to white */

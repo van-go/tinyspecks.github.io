@@ -539,6 +539,10 @@ body table {
     text-align: center;
 }
 
+.thumbnail-grid p {
+    color: white; /* Make the text white */
+}
+
 .thumbnail-container {
     text-align: center;
 }
@@ -552,7 +556,7 @@ body table {
 }
 
 .thumbnail:hover {
-    transform: scale(5));
+    transform: scale(5);
     z-index: 1;
 }
 

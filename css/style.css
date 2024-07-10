@@ -422,22 +422,18 @@ a:hover {
 .container-wrapper {
     background-color: grey;
 
-/* added 25 px of space at the bottom */
-
 .gigs .page-header {
     margin-top: 5px;
     margin-bottom: 15px;
 }
 
-/* added 25 px of space at the bottom */
-
 .music .page-header {
+    margin-top: 5px;
     margin-bottom: 15px;
 }
 
-/* added 25 px of space at the bottom */
-
 .video .page-header {
+    margin-top: 5px;
     margin-bottom: 15px;
 }
 
@@ -464,7 +460,7 @@ blockquote {
 /* puts 25px of space at the bottom */
 
 .media-body {
-    padding-bottom: 25px;
+    padding-bottom: 15px;
 }
 
 /* sets font size */
@@ -516,17 +512,6 @@ body table {
 
 .table>tbody>tr>td{
     vertical-align: middle;
-}
-/*............................................................  Buttons */
-
-/* extra styles added to bootstrap button class */
-
-.btn--cta {
-    font-weight: bold;
-    border-radius: 23px;
-    width: 160px;
-    background-color: #31b0d5;
-    color: white;
 }
 
 /* ........................................................ Press Kit Section */
@@ -671,25 +656,6 @@ video {
     font-family: "Eroded", sans-serif;
     font-size: 35px;
     color: white;
-    text-decoration: underline;
-}
-
-/* styles newsletter subscription */
-
-#signup.contact-form {
-    display: block;
-    font-size: 14px;
-    margin-top: 0em;
-    text-align: center;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    font-weight: 300;
-    padding-top: 25px;
-}
-
-/* styles back to top link */
-
-#back {
-    color: black;
     text-decoration: underline;
 }
 

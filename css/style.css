@@ -627,7 +627,7 @@ p .section-text {
 }
 
 .gallery img:hover {
-    transform: scale(2);
+    transform: scale(3);
     transition: transform 0.25s, filter 0.25s;
     z-index: 1;
     position: relative;

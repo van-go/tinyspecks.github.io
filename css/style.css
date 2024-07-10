@@ -555,11 +555,6 @@ body table {
     transition: transform 0.3s;
 }
 
-.thumbnail:hover {
-    transform: scale(5);
-    z-index: 1;
-}
-
 .lightbox {
     display: none;
     position: fixed;

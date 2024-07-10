@@ -637,7 +637,7 @@ video {
 /*......................................................... MEDIA QUERIES */
 
 @media (min-width: 768px) {
-    .col-xs-12, .col-md-4, .col-md-6, .col-md-offset-3 {
+    /* .col-xs-12, .col-md-4, .col-md-6, .col-md-offset-3 {
         width: 100%;
         margin: 0;
         padding: 0;
@@ -651,7 +651,7 @@ video {
     .youtube-container, .embed-responsive, .embed-responsive .embed-responsive-item {
         width: 100%;
         height: auto;
-    }
+    } */
 
     /*............................................................  Containers */
     .callout-container {

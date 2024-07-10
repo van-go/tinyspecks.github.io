@@ -252,7 +252,7 @@ a:hover {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 50%;
+    height: 75%;
     position: relative;
     background-position: center center;
     background-repeat: no-repeat;
@@ -435,7 +435,7 @@ a:hover {
 }
 
 .music .page-header {
-    margin-top: 5px;
+    /* margin-top: 5px; */
     margin-bottom: 15px;
 }
 

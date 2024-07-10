@@ -56,7 +56,7 @@ a:hover {
 
 .callout-container {
     height: 100vh;
-    background-image: url('../images/tiny_specks_pasture_spaceship.png');
+    background-image: url('../images/tiny_specks_background.png');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -165,7 +165,7 @@ a:hover {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 80%;
+    height: 100%;
     position: relative;
     background-position: center center;
     background-repeat: no-repeat;

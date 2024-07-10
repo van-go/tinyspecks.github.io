@@ -675,8 +675,6 @@ video {
 
     /*............................................................  Navbar Section */
     .navbar {
-        margin-top: 0;
-        margin-bottom: 0;
         position: absolute;
         background-color: black;
     }
@@ -688,10 +686,11 @@ video {
     }
 
     .navbar .navbar-collapse {
-        display: flex;
+        /* display: flex;
         justify-content: center;
         align-items: center;
-        width: 100%;
+        width: 100%; */
+        text-align: center;
     }
 
     .navbar-nav>li {

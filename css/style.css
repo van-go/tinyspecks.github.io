@@ -488,7 +488,7 @@ blockquote {
 }
 
 .upcoming {
-    color: yellow;
+    color: yellow !important;;
     font-weight: bold;
 }
 

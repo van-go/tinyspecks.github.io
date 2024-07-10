@@ -425,19 +425,20 @@ a:hover {
 /* added 25 px of space at the bottom */
 
 .gigs .page-header {
-    margin-bottom: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 /* added 25 px of space at the bottom */
 
 .music .page-header {
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 /* added 25 px of space at the bottom */
 
 .video .page-header {
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 /*............................................................  Section Text */
@@ -487,7 +488,7 @@ blockquote {
     color: white;
 }
 
-.upcoming {
+.gigs-table td.upcoming {
     color: yellow !important;;
     font-weight: bold;
 }

@@ -440,7 +440,8 @@ a:hover {
 /* aligns text in center */
 
 .section-text{
-    font-size: 20px;
+    font-size: 14px;
+    color:white;
 }
 
 .section-text p {

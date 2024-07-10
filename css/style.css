@@ -160,7 +160,7 @@ a:hover {
 /* background image settings for video section */
 
 .video-container {
-    background-image: url("../images/video-header.png");
+    background-image: url("../images/space_background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }

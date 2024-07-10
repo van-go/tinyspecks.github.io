@@ -531,8 +531,12 @@ body table {
 
 .thumbnail-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(1in, 1fr));
     gap: 10px;
+}
+
+.thumbnail-grid div {
+    text-align: center;
 }
 
 .thumbnail-container {
@@ -540,15 +544,16 @@ body table {
 }
 
 .thumbnail {
-    width: 100%; /* Adjust the size as needed */
-    max-width: 150px;
-    height: auto;
+    width: 2in;
+    height: 2in;
+    object-fit: cover;
     cursor: pointer;
     transition: transform 0.3s;
 }
 
 .thumbnail:hover {
-    transform: scale(3);
+    transform: scale(5));
+    z-index: 1;
 }
 
 .lightbox {

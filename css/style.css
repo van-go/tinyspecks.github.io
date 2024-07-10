@@ -788,7 +788,7 @@ input .email-box {
         font-weight: 900;
     }
 
-    .col-xs-12, .col-md-4, .col-md-6, .col-md-offset-3 {
+    /* .col-xs-12, .col-md-4, .col-md-6, .col-md-offset-3 {
         width: 100%;
         margin: 0;
         padding: 0;
@@ -802,7 +802,7 @@ input .email-box {
     .youtube-container, .embed-responsive, .embed-responsive .embed-responsive-item {
         width: 100%;
         height: auto;
-    }
+    } */
 
 
     /*............................................................  Jumbotron Section*/

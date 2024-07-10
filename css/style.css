@@ -489,7 +489,7 @@ blockquote {
 
 .upcoming {
     color: yellow;
-    font-weight: 300;
+    font-weight: bold;
 }
 
 /* sets color of text inside table to white */

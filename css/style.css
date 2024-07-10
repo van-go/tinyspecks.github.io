@@ -293,6 +293,8 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 10px; /* Add padding to the top */
+    padding-bottom: 10px; /* Add padding to the bottom */
 }
 
 /* removes border from expanded menu button in mobile version of navbar */

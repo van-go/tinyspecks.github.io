@@ -159,7 +159,9 @@ a:hover {
 
 /* background image settings for video section */
 
-.video-container {
+.video-container, 
+.music-container, 
+.band-container {
     background-image: url("../images/space_background.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -322,35 +324,6 @@ a:hover {
 .jumbotron {
     background-color: transparent;
     margin-bottom: 0;
-}
-
-/* font settings for the music service links in jumbotron */
-
-.lead.music-service {
-    font-size: 18px;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    font-weight: 300;
-    color: white;
-}
-
-/* font settings for the music service links in jumbotron upon hover */
-
-.lead.music-service:hover {
-    color: white;
-    text-decoration: underline;
-}
-
-/* settings for the new album details in jumbotron */
-
-.lead.music-text {
-    font-style: italic;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    font-weight: 300;
-    font-size: 20px;
-    color: white;
-    margin: 25px 0;
 }
 
 /*............................................................  Block dividers */

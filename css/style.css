@@ -290,12 +290,17 @@ a:hover {
     font-family: "Eroded", monospace;
     font-size: 50px;
     letter-spacing: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* removes border from expanded menu button in mobile version of navbar */
 .navbar-default .navbar-collapse {
     border-color: black;
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 /* When expand menu button (mobile only) is selected its background colors remain transparent */
@@ -712,29 +717,41 @@ input .email-box {
         margin-top: 10px;
         margin-bottom: 0;
         position: fixed;
-        width: 100%;
         background-color: black;
-        display: flex;
-        justify-content: center;
     }
     
+    /*navbar display settings*/
+    
     .navbar .navbar-nav {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        display: inline-block;
+        float: none;
+        vertical-align: top
     }
+    
+    /* aligns navbar items in the center */
     
     .navbar .navbar-collapse {
         display: flex;
         justify-content: center;
+        align-items: center;
         width: 100%;
     }
+    
+    /* styles navbar items spacing*/
     
     .navbar-nav>li {
         padding-left: 20px;
         padding-right: 20px;
         padding-top: 10px;
     }
+    
+    /* removes background color */
+    
+    .navbar {
+        background-color: black;
+    }
+    
+    /* font styles and transition settings for navbar items*/
     
     .navbar-default .navbar-nav>li>a {
         transition: text-decoration 0.5s ease-in-out;
@@ -744,12 +761,13 @@ input .email-box {
         letter-spacing: 3px;
     }
     
+    /* when navbar items are interacted with they are underlined */
+    
     .navbar-default .navbar-nav>li>a:hover,
     .navbar-default .navbar-nav>li>a:active {
         text-decoration: none;
         font-weight: 900;
     }
-    
 
     /* .gallery {
         -moz-column-count:    2;

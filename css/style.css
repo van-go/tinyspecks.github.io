@@ -381,6 +381,10 @@ a:hover {
     color: white;
 }
 
+.white-title {
+    color: white !important;
+    text-align: center;
+}
 /* sets font for section titles */
 
 .text-title {

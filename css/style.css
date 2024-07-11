@@ -695,7 +695,7 @@ video {
 
     .navbar .navbar-collapse {
         text-align: right;
-        padding-top: 15px;
+        padding-top: 25px;
     }
 
     .navbar-nav>li {
@@ -723,11 +723,11 @@ video {
         text-align: right;
     }
 
-    .navbar-default .navbar-nav>li>a:hover,
+    /* .navbar-default .navbar-nav>li>a:hover,
     .navbar-default .navbar-nav>li>a:active {
         text-decoration: none;
         font-weight: 300;
-    }
+    } */
 
     .navbar-header {
         display: flex;

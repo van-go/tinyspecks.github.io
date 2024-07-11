@@ -646,8 +646,11 @@ video {
 
 @media (max-width: 768px) {
     .video-container, .music-container, .band-container {
-        background-image: url("../images/space_background_media.png");
-        width: 750px;
+        background-color: black;
+    }
+
+    .gigs-container, .gallery-container, .presskit-container {
+        background-color: grey;
     }
 
     /*............................................................  Containers */

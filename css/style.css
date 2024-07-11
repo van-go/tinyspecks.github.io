@@ -1,11 +1,12 @@
 /*........................................................... General */
 
 @font-face {
-    /* Imports non-google font */
     font-family: "Eroded";
     src: url("../fonts/ERODED PERSONAL USE.ttf");
+}
 
-    font-family: "PunkTypewritter2";
+@font-face {
+    font-family: "PunkTypewriter2";
     src: url("../fonts/Punk Typewriter 2.otf");
 }
 
@@ -324,7 +325,7 @@ a:hover {
 /* alterations made to Bootstrap's navbar-brand class for project-specific navbar setup on mobile */
 .navbar-brand {
     font-size: 25px;
-    font-family: "Eroded", monospace;
+    font-family: "PunkTypewritter2", monospace;
     position: absolute;
     left: 0;
     padding-left: 15px;

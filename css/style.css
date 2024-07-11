@@ -646,9 +646,7 @@ video {
 
 @media (max-width: 768px) {
     .callout-container, .gigs-container, .video-container, .music-container, .band-container, .gallery-container, .presskit-container {
-        background-size: contain;
-        background-position: top center;
-        background-attachment: scroll; /* This prevents the background from being fixed on mobile */
+        height: 50%;
     }
 
     /*............................................................  Containers */

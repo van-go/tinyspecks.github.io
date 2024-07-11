@@ -350,6 +350,25 @@
             document.getElementById('lightbox').style.display = 'none';
         }
     </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const gallery = document.getElementById('gallery');
+            const images = Array.from(gallery.querySelectorAll('.gallery-img'));
+
+            if (window.innerWidth <= 768) {
+                // Shuffle and pick 9 random images
+                const selectedImages = images.sort(() => 0.5 - Math.random()).slice(0, 9);
+
+                // Clear the gallery
+                gallery.innerHTML = '';
+
+                // Add the selected images to the gallery
+                selectedImages.forEach(img => {
+                    gallery.appendChild(img);
+                });
+            }
+        });
+    </script>
 </body>
 
 </html>

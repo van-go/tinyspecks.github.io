@@ -6,8 +6,8 @@
 }
 
 @font-face {
-    font-family: "PunkTypewriter2";
-    src: url("../fonts/Punk Typewriter 2.otf");
+    font-family: "PunkTypewriter";
+    src: url("../fonts/Punk Typewriter.otf");
 }
 
 /* Basic settings for main text font */
@@ -325,7 +325,7 @@ a:hover {
 /* alterations made to Bootstrap's navbar-brand class for project-specific navbar setup on mobile */
 .navbar-brand {
     font-size: 25px;
-    font-family: "PunkTypewritter2", monospace;
+    font-family: "PunkTypewritter", monospace;
     position: absolute;
     left: 0;
     padding-left: 15px;

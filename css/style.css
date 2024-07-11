@@ -739,6 +739,7 @@ video {
 
     .social-footer {
         padding: 5px 0; /* Reduce the padding for small screens */
+        position: fixed;
     }
     .social-list {
         font-size: 20px; /* Reduce the font size for small screens */

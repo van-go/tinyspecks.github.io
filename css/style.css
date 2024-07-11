@@ -275,8 +275,8 @@ a:hover {
 .navbar-default .navbar-collapse {
     border-color: black;
     width: 100%;
-    /* display: flex;
-    justify-content: flex-end; */
+    display: flex;
+    justify-content: flex-end;
 }
 
 /* When expand menu button (mobile only) is selected its background colors remain transparent */
@@ -289,8 +289,6 @@ a:hover {
 
 /* colors the bars in the expand menu button to white */
 .navbar-default .navbar-toggle .icon-bar {
-    position: absolute;
-    /* right: 15px; */
     background-color: #FCD900;
 }
 
@@ -304,7 +302,7 @@ a:hover {
 .navbar-default .navbar-nav > li > a {
     color: #FCD900;
     font-size: 50px;
-    text-align: right;
+    /* text-align: center; */
 }
 
 /* sets font type for link items in mobile nav */

@@ -652,7 +652,7 @@ video {
 
     .gigs-container, .gallery-container, .presskit-container {
         background-image: none;
-        background-color: grey;
+        background-color: #424040;
     }
 
     /*............................................................  Containers */

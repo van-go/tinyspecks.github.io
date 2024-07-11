@@ -321,11 +321,6 @@ a:hover {
     margin-top: 0;
 }
 
-.navbar-brand:hover, .navbar-brand:focus {
-    text-decoration: none;
-    color: inherit; /* Keeps the original color */
-}
-
 /* Sets background color to transparent */
 .navbar-default .navbar-toggle:hover {
     background-color: transparent;
@@ -715,7 +710,6 @@ video {
     }
 
     .navbar-default .navbar-nav>li>a {
-        transition: text-decoration 0.5s ease-in-out;
         font-size: 30px;
         font-family: "Eroded", monospace;
         color: #FCD900;

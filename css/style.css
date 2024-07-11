@@ -676,9 +676,8 @@ video {
         width: 100%;
     }
 
-    /*............................................................  Logo */
-    img {
-        display: none;
+    .band-image {
+        display: none !important; /* Hide the image on small screens */
     }
 
     /*............................................................  Navbar Section */
@@ -742,6 +741,18 @@ video {
         right: 0;
     }
 
+    .social-footer {
+        padding: 5px 0; /* Reduce the padding for small screens */
+    }
+    .social-list {
+        font-size: 20px; /* Reduce the font size for small screens */
+    }
+    .social-list li {
+        margin: 0 5px; /* Reduce the margin for small screens */
+    }
+    .lead.social-text {
+        font-size: 18px; /* Reduce the font size for small screens */
+    }
     /*............................................................  Jumbotron Section */
     .lead.music-text {
         font-style: italic;

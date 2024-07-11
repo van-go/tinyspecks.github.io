@@ -28,7 +28,7 @@
                 <div id="mobile-nav" class="navbar-brand visible-xs active">
                     <a>tiny specks</a>
                 </div>
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                <button id="navbar-toggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -369,6 +369,38 @@
             }
         });
     </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var navbarToggle = document.getElementById('navbar-toggle');
+            var navbarCollapse = document.getElementById('navbar');
+            var navbarLinks = navbarCollapse.querySelectorAll('a');
+        
+            // Function to toggle the navbar
+            function toggleNavbar() {
+                if (navbarCollapse.classList.contains('in')) {
+                    navbarCollapse.classList.remove('in');
+                } else {
+                    navbarCollapse.classList.add('in');
+                }
+            }
+        
+            // Event listener for the navbar toggle button
+            navbarToggle.addEventListener('click', function () {
+                toggleNavbar();
+            });
+        
+            // Event listeners for the navbar links
+            navbarLinks.forEach(function (link) {
+                link.addEventListener('click', function () {
+                    // Only close the menu if it's open
+                    if (navbarCollapse.classList.contains('in')) {
+                        toggleNavbar();
+                    }
+                });
+            });
+        });
+        </script>
+        
 </body>
 
 </html>

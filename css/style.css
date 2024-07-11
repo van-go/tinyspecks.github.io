@@ -267,18 +267,16 @@ a:hover {
     font-size: 50px;
     letter-spacing: 3px;
     display: flex;
-    /* justify-content: center;
-    align-items: center; */
-    /*padding-top: 15px; /* Add padding to the top */
-    /*padding-bottom: 5px; /* Add padding to the top */
+    padding-top: 15px; /* Add padding to the top */
+    padding-bottom: 5px; /* Add padding to the top */
 }
 
 /* removes border from expanded menu button in mobile version of navbar */
 .navbar-default .navbar-collapse {
     border-color: black;
     width: 100%;
-    /* display: flex;
-    justify-content: center; */
+    display: flex;
+    justify-content: flex-end;
 }
 
 /* When expand menu button (mobile only) is selected its background colors remain transparent */
@@ -317,6 +315,9 @@ a:hover {
     font-size: 25px;
     padding-top: 18px;
     font-family: "Eroded", monospace;
+    position: absolute;
+    left: 0;
+    padding-left: 15px;
 }
 
 /* Sets background color to transparent */
@@ -686,10 +687,6 @@ video {
     }
 
     .navbar .navbar-collapse {
-        /* display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%; */
         text-align: center;
     }
 

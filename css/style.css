@@ -670,6 +670,11 @@ video {
         justify-content: space-between;
     }
 
+    .container-fluid {
+        margin-right: 0;
+        padding-right: 0;
+    }
+
     /*............................................................  Logo */
     .img-responsive {
         padding-top: 90px;

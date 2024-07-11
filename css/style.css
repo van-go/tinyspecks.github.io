@@ -321,6 +321,12 @@ a:hover {
     padding-left: 15px;
 }
 
+.navbar-brand:hover {
+    text-decoration: none;
+    color: inherit; /* Keeps the original color */
+    cursor: default; /* Changes the cursor to default */
+}
+
 /* Sets background color to transparent */
 .navbar-default .navbar-toggle:hover {
     background-color: transparent;
@@ -699,7 +705,9 @@ video {
     .navbar-nav>li {
         flex: none; /* Reset the flex property */
         width: 100%; /* Make each item full width */
-        text-align: left; /* Align text to the left */
+        flex: 1; /* Each item takes equal space */
+        text-align: center;
+        white-space: nowrap; /* Prevents text from wrapping */
     }
 
     .navbar {

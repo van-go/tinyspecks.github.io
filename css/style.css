@@ -697,9 +697,9 @@ video {
     }
 
     .navbar-nav>li {
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-top: 10px;
+        flex: none; /* Reset the flex property */
+        width: 100%; /* Make each item full width */
+        text-align: left; /* Align text to the left */
     }
 
     .navbar {

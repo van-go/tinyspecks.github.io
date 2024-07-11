@@ -728,6 +728,10 @@ video {
     }
     .navbar-toggle {
         margin-right: 10px; /* Adjust this margin as needed */
+        align-items: center;
+        position: absolute;
+        top: 0;
+        right: 0;
     }
 
     /*............................................................  Jumbotron Section */

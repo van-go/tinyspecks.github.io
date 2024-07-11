@@ -321,12 +321,6 @@ a:hover {
     padding-left: 15px;
 }
 
-.navbar-brand:hover {
-    text-decoration: none;
-    color: inherit; /* Keeps the original color */
-    cursor: default; /* Changes the cursor to default */
-}
-
 /* Sets background color to transparent */
 .navbar-default .navbar-toggle:hover {
     background-color: transparent;
@@ -679,6 +673,8 @@ video {
     .container-fluid {
         margin-right: 0;
         padding-right: 0;
+        margin-top: 25px;
+        width: 100%;
     }
 
     /*............................................................  Logo */
@@ -731,13 +727,14 @@ video {
     .navbar-default .navbar-nav>li>a:hover,
     .navbar-default .navbar-nav>li>a:active {
         text-decoration: none;
-        font-weight: 900;
+        font-weight: 300;
     }
 
     .navbar-header {
         display: flex;
         justify-content: space-between;
         width: 100%;
+        margin-right: 15px;
     }
     .navbar-toggle {
         margin-right: 10px; /* Adjust this margin as needed */

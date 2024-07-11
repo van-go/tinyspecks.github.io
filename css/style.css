@@ -656,17 +656,7 @@ video {
 
     /*............................................................  Containers */
     .callout-container {
-        height: 100vh;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        flex-direction: column;
-        justify-content: space-between;
+        background-position: right center; /* Focuses on the right section of the image */
     }
 
     .container-fluid {
@@ -766,8 +756,8 @@ video {
     }
 
     .gallery-img {
-        width: 50px; /* Smaller size before hover */
-        height: 50px; /* Smaller size before hover */
+        width: 75px; /* Smaller size before hover */
+        height: 75px; /* Smaller size before hover */
         object-fit: cover;
         border-radius: 5px;
     }
@@ -793,4 +783,5 @@ video {
     .thumbnail {
         width: 1in;
         height: 1in;
+    }
 }

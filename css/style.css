@@ -744,7 +744,7 @@ video {
         align-items: center; */
     }
     .social-list {
-        font-size: 20px; /* Reduce the font size for small screens */
+        font-size: 30px; /* Reduce the font size for small screens */
     }
     .social-list li {
         margin: 0 5px; /* Reduce the margin for small screens */

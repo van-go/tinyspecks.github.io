@@ -656,6 +656,7 @@ video {
 
     /*............................................................  Containers */
     .callout-container {
+        background-image: url('../images/tiny_specks_background_media.png');
         background-position: right center; /* Focuses on the right section of the image */
     }
 

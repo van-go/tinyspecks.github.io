@@ -645,8 +645,8 @@ video {
 /*......................................................... MEDIA QUERIES */
 
 @media (max-width: 768px) {
-    .callout-container, .gigs-container, .video-container, .music-container, .band-container, .gallery-container, .presskit-container {
-        height: 25%;
+    .video-container, .music-container, .band-container {
+        background-image: url("../images/space_background_media.jpg");
     }
 
     /*............................................................  Containers */

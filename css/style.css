@@ -688,7 +688,7 @@ video {
     }
 
     .navbar .navbar-collapse {
-        text-align: center;
+        text-align: right;
     }
 
     .navbar-nav>li {
@@ -711,12 +711,22 @@ video {
 
     .navbar-default .navbar-collapse.collapse.in .nav > li > a {
         font-size: 20px; /* Adjust this size as needed */
+        text-align: right;
     }
 
     .navbar-default .navbar-nav>li>a:hover,
     .navbar-default .navbar-nav>li>a:active {
         text-decoration: none;
         font-weight: 900;
+    }
+
+    .navbar-header {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .navbar-toggle {
+        margin-right: 10px; /* Adjust this margin as needed */
     }
 
     /*............................................................  Jumbotron Section */

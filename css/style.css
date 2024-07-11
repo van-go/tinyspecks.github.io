@@ -737,7 +737,7 @@ video {
 
     .social-footer {
         padding: 5px 0; /* Reduce the padding for small screens */
-        position: absolute;
+        position: fixed;
         /* justify-content: center;
         align-items: center; */
     }

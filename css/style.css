@@ -308,6 +308,7 @@ a:hover {
 /* sets font type for link items in mobile nav */
 .navbar a {
     font-family: "Eroded", monospace;
+    font-size: 25px;
 }
 
 /* alterations made to Bootstrap's navbar-brand class for project-specific navbar setup on mobile */

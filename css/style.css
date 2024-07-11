@@ -777,8 +777,11 @@ video {
         position: relative;
     }
 
-    /*............................................................  Video Section */
-
+    /*............................................................  Music Section */
+    .spotify-container iframe {
+        width: 100%; /* Make the Spotify player take the full width */
+        height: 80vh; /* Adjust the height if needed */
+    }
 
     /*............................................................  Presskit Section */
     .thumbnail-grid {

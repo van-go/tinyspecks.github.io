@@ -267,18 +267,18 @@ a:hover {
     font-size: 50px;
     letter-spacing: 3px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 15px; /* Add padding to the top */
-    padding-bottom: 5px; /* Add padding to the top */
+    /* justify-content: center;
+    align-items: center; */
+    /*padding-top: 15px; /* Add padding to the top */
+    /*padding-bottom: 5px; /* Add padding to the top */
 }
 
 /* removes border from expanded menu button in mobile version of navbar */
 .navbar-default .navbar-collapse {
     border-color: black;
     width: 100%;
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
 }
 
 /* When expand menu button (mobile only) is selected its background colors remain transparent */
@@ -304,7 +304,7 @@ a:hover {
 .navbar-default .navbar-nav > li > a {
     color: #FCD900;
     font-size: 50px;
-    text-align: center;
+    /* text-align: center; */
 }
 
 /* sets font type for link items in mobile nav */

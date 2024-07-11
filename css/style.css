@@ -758,13 +758,23 @@ video {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-auto-rows: 1fr;
-        gap: 10px;
+        gap: 5px;
+        place-items: center;
+        margin-bottom: 5px; /* Adjusted this to match the gap */
+        position: relative;
+        justify-content: center;
     }
 
     .gallery-img {
-        width: 100%;
-        height: auto;
+        width: 50px; /* Smaller size before hover */
+        height: 50px; /* Smaller size before hover */
         object-fit: cover;
+        border-radius: 5px;
+    }
+
+    .gallery img:hover {
+        z-index: 1;
+        position: relative;
     }
 
     /*............................................................  Video Section */

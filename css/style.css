@@ -647,7 +647,7 @@ video {
 @media (max-width: 768px) {
     .video-container, .music-container, .band-container {
         background-image: url("../images/space_background_media.png");
-        background-size: contain;
+        width: 750px;
     }
 
     /*............................................................  Containers */

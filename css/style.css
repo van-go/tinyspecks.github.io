@@ -676,6 +676,10 @@ video {
         width: 100%;
     }
 
+    .band-image {
+        display: none; /* Hide the image on small screens */
+    }
+    
     /*............................................................  Logo */
     .img-responsive {
         padding-top: 90px;

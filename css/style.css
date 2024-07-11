@@ -264,7 +264,7 @@ a:hover {
     background-color: black;
     border: 0;
     font-family: "Eroded", monospace;
-    font-size: 25px;
+    font-size: 50px;
     letter-spacing: 3px;
     display: flex;
     padding-top: 15px; /* Add padding to the top */
@@ -308,7 +308,7 @@ a:hover {
 /* sets font type for link items in mobile nav */
 .navbar a {
     font-family: "Eroded", monospace;
-    font-size: 25px;
+    font-size: 50px;
 }
 
 /* alterations made to Bootstrap's navbar-brand class for project-specific navbar setup on mobile */
@@ -707,6 +707,10 @@ video {
         font-family: "Eroded", monospace;
         color: #FCD900;
         letter-spacing: 3px;
+    }
+
+    .navbar-default .navbar-collapse.collapse.in .nav > li > a {
+        font-size: 20px; /* Adjust this size as needed */
     }
 
     .navbar-default .navbar-nav>li>a:hover,

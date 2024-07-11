@@ -646,17 +646,23 @@ video {
 
 @media (max-width: 768px) {
     .video-container, .music-container, .band-container {
+        background-image: none;
         background-color: char#2b2d2f;
     }
 
     .gigs-container, .gallery-container, .presskit-container {
+        background-image: none;
         background-color: grey;
     }
 
     /*............................................................  Containers */
     .callout-container {
         background-image: url('../images/tiny_specks_background_media.png');
-        background-position: center center; /* Focuses on the right section of the image */
+        background-size: cover; /* Make sure the image covers the entire container */
+        background-position: center center; /* Focus on the center of the image */
+        background-repeat: no-repeat;
+        height: 100vh; /* Full viewport height */
+        width: 100%; /* Full viewport width */
     }
 
     .container-fluid {

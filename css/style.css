@@ -707,6 +707,7 @@ video {
         font-family: "Eroded", monospace;
         color: #FCD900;
         letter-spacing: 3px;
+        text-align: right; /* Align dropdown items to the right */
     }
 
     .navbar-default .navbar-collapse.collapse.in .nav > li > a {

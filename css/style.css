@@ -318,6 +318,12 @@ a:hover {
     position: absolute;
     left: 0;
     padding-left: 15px;
+    margin-top: 0;
+}
+
+.navbar-brand:hover, .navbar-brand:focus {
+    text-decoration: none;
+    color: inherit; /* Keeps the original color */
 }
 
 /* Sets background color to transparent */

@@ -684,7 +684,7 @@ video {
     .navbar {
         margin-bottom: 0;
         position: absolute;
-        padding-top: 0;
+        padding-top: 5px;
     }
 
     .navbar .navbar-nav {

@@ -267,8 +267,15 @@ a:hover {
     font-size: 50px;
     letter-spacing: 3px;
     display: flex;
+    justify-content: space-between;
     padding-top: 15px; /* Add padding to the top */
     padding-bottom: 5px; /* Add padding to the top */
+}
+
+.navbar-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 /* removes border from expanded menu button in mobile version of navbar */

@@ -711,7 +711,7 @@ video {
     }
 
     .navbar-default .navbar-nav>li>a {
-        font-size: 30px;
+        font-size: 25px;
         font-family: "Eroded", monospace;
         color: #FCD900;
         letter-spacing: 3px;
@@ -719,7 +719,7 @@ video {
     }
 
     .navbar-default .navbar-collapse.collapse.in .nav > li > a {
-        font-size: 20px; /* Adjust this size as needed */
+        font-size: 25px; /* Adjust this size as needed */
         text-align: right;
     }
 

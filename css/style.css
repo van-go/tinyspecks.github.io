@@ -675,8 +675,8 @@ video {
 
     /*............................................................  Navbar Section */
     .navbar {
+        margin-bottom: 0;
         position: absolute;
-        background-color: black;
     }
 
     .navbar .navbar-nav {

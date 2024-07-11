@@ -304,7 +304,7 @@ a:hover {
 .navbar-default .navbar-nav > li > a {
     color: #FCD900;
     font-size: 50px;
-    /* text-align: center; */
+    text-align: right;
 }
 
 /* sets font type for link items in mobile nav */

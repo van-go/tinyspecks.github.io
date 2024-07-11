@@ -314,7 +314,7 @@ a:hover {
 /* alterations made to Bootstrap's navbar-brand class for project-specific navbar setup on mobile */
 .navbar-brand {
     font-size: 25px;
-    padding-top: 18px;
+    padding-top: 5px;
     font-family: "Eroded", monospace;
     position: absolute;
     left: 0;

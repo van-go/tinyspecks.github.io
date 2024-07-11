@@ -264,7 +264,7 @@ a:hover {
     background-color: black;
     border: 0;
     font-family: "Eroded", monospace;
-    font-size: 50px;
+    font-size: 25px;
     letter-spacing: 3px;
     display: flex;
     padding-top: 15px; /* Add padding to the top */
@@ -703,7 +703,7 @@ video {
 
     .navbar-default .navbar-nav>li>a {
         transition: text-decoration 0.5s ease-in-out;
-        font-size: 35px;
+        font-size: 50px;
         font-family: "Eroded", monospace;
         color: #FCD900;
         letter-spacing: 3px;

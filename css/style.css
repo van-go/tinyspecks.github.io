@@ -251,7 +251,8 @@ a:hover {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 900px;
+    min-height: 900px;
+    height: auto;
     position: relative;
     background-position: center center;
     background-repeat: no-repeat;

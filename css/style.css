@@ -147,7 +147,7 @@ a:hover {
 
 /* background image settings for video section */
 .video-container {
-    background-image: url("../images/space_background.jpg");
+    background-image: url("../images/space_background1.svg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -160,7 +160,7 @@ a:hover {
 }
 
 .music-container {
-    background-image: url("../images/space_background.jpg");
+    background-image: url("../images/space_background1.svg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -173,7 +173,7 @@ a:hover {
 }
 
 .band-container {
-    background-image: url("../images/space_background.jpg");
+    background-image: url("../images/space_background1.svg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -649,10 +649,10 @@ video {
 /*......................................................... MEDIA QUERIES */
 
 @media (max-width: 768px) {
-    .video-container, .music-container, .band-container {
+    /* .video-container, .music-container, .band-container {
         background-image: none;
         background-color: char#2b2d2f;
-    }
+    } */
 
     .gigs-container, .gallery-container, .presskit-container {
         background-image: none;

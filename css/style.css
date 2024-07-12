@@ -319,6 +319,7 @@ a:hover {
 /* when a link item is interacted with it remains white */
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > li > a:hover {
+    text-decoration: none !important;
     color: #FCD900;
 }
 

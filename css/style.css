@@ -652,11 +652,8 @@ video {
     .video-container, .music-container, .band-container {
         background-image: url("../images/space_background1.svg");
     }
-    .presskit-container {
-        background-image: url("../images/tweedys_together_bw.svg");
-    }
 
-    .gigs-container, .gallery-container {
+    .gigs-container, .gallery-container, .presskit-container {
         background-image: none;
         background-color: #424040;
     }

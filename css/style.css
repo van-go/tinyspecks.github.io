@@ -684,6 +684,7 @@ video {
     /*............................................................  Containers */
     .callout-container {
         background-image: url('../images/tiny_specks_background_media.webp');
+        min-height: 500px;
         /* height: 100vh; /* Full viewport height */
         /* width: 100%; /* Full viewport width */
     }

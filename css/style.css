@@ -683,10 +683,7 @@ video {
 
     /*............................................................  Containers */
     .callout-container {
-        background-image: url('../images/tiny_specks_background_media.png');
-        background-size: cover; /* Make sure the image covers the entire container */
-        background-position: center center; /* Focus on the center of the image */
-        background-repeat: no-repeat;
+        /* background-image: url('../images/tiny_specks_background_media.png'); */
         height: 100vh; /* Full viewport height */
         width: 100%; /* Full viewport width */
     }

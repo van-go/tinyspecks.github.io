@@ -172,7 +172,7 @@ a:hover {
     background-attachment: fixed;
 }
 
-.band-container {
+.band-container, .contact-container {
     background-image: url("../images/space_background.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -649,7 +649,7 @@ video {
 /*......................................................... MEDIA QUERIES */
 
 @media (max-width: 768px) {
-    .video-container, .music-container, .band-container {
+    .video-container, .music-container, .band-container, .contact-container {
         background-image: url("../images/space_background1.svg");
     }
 

@@ -529,11 +529,11 @@ p .section-text {
 /*For uniform sizing */
 .gallery {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: 1fr;
-    gap: 15px;
+    gap: 5px;
     place-items: center;
-    margin-bottom: 15px; /* Adjusted this to match the gap */
+    margin-bottom: 5px; /* Adjusted this to match the gap */
     position: relative;
     justify-content: center;
 }

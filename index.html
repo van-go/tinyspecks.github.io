@@ -401,6 +401,18 @@
                     gallery.appendChild(img);
                 });
             }
+            else {
+                // Shuffle and pick 9 random images
+                const selectedImages = images.sort(() => 0.5 - Math.random()).slice(0, 16);
+
+                // Clear the gallery
+                gallery.innerHTML = '';
+
+                // Add the selected images to the gallery
+                selectedImages.forEach(img => {
+                    gallery.appendChild(img);
+                });
+            }
         });
     </script>
     <script>

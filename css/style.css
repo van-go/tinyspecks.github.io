@@ -488,7 +488,8 @@ blockquote {
     color: white;
 }
 
-.gigs-table td.upcoming {
+.gigs-table td.upcoming,
+.gigs-table th.upcoming {
     color: #FCD900 !important;
     font-weight: bold;
 }

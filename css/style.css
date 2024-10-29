@@ -456,6 +456,11 @@ a:hover {
     color: white;
 }
 
+.section-text-bio {
+    font-size: 18px;
+    color: yellow;
+}
+
 .section-text p {
     text-align: center;
 }

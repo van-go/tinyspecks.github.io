@@ -111,135 +111,99 @@
         <!-- /.band bio -->
     </div>
     <div class="container-wrapper gigs-container">
-        <div class="gig-opaque-overlay">&nbsp;</div>
-        <div class="container-fluid  content-container ">
-            <!-- Shows -->
-            <section id="shows">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="page-header">
-                            <h2 class="text-title white-title">Shows</h2>
+    <div class="gig-opaque-overlay">&nbsp;</div>
+    <div class="container-fluid content-container">
+        <!-- Shows -->
+        <section id="shows">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="page-header">
+                        <h2 class="text-title white-title">Shows</h2>
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <div class="row gigs-section">
+                <div class="col-xs-12 col-md-6 col-md-offset-3">
+                    <div class="media">
+                        <div class="gigs-table text-center">
+                            <h4 style="color: yellow;">Upcoming</h4>
+                            <table class="table gigs-table">
+                                <thead class="text-center">
+                                    <tr>
+                                        <th class="upcoming">Date/Time</th>
+                                        <th class="upcoming">Venue</th>
+                                        <th class="upcoming">Playing alongside...</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="text-center">
+                                    <tr>
+                                        <td class="upcoming">01/02/2025 @ 10pm</td>
+                                        <td class="upcoming">Coral Snake</td>
+                                        <td class="upcoming">The Side Saddles, TC Jester</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="upcoming">01/23/2025 @ 10pm</td>
+                                        <td class="upcoming">Chess Club</td>
+                                        <td class="upcoming">TBD</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <!-- Dropdown toggle for Past Gigs -->
+                            <div class="dropdown-header gigs-text" onclick="toggleTable()">
+                                <h4 class="white-title">Past</h4>
+                                <span class="arrow">▶</span>
+                            </div>
+                            <table id="past-table" class="table gigs-table">
+                                <thead class="text-center">
+                                    <tr>
+                                        <th>Date</th>
+                                        <th>Venue</th>
+                                        <th>Playing alongside...</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="text-center">
+                                    <tr>
+                                        <td>12/08/2024 @ 4pm</td>
+                                        <td>Sahara Lounge</td>
+                                        <td>Ms. Cool, Phauna, Wendy Ward Band</td>
+                                    </tr>
+                                    <tr>
+                                        <td>12/14/2024 @ 5pm</td>
+                                        <td>The Aristocrat Lounge</td>
+                                        <td>Awesome Death, Frank Mustard Project</td>
+                                    </tr>
+                                    <tr>
+                                        <td>11/16/2024 @ 6:45pm</td>
+                                        <td>Hotel Vegas</td>
+                                        <td>Semihelix, Paper Sister</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10/05/2024 @ 4pm</td>
+                                        <td>Knomad</td>
+                                        <td>Tish, Ivy Mine</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10/02/2024 @ 8pm</td>
+                                        <td>Hotel Vegas</td>
+                                        <td>Hideout</td>
+                                    </tr>
+                                    <!-- Add more rows as needed -->
+                                </tbody>
+                            </table>
                             <br>
                         </div>
                     </div>
                 </div>
-                <div class="row gigs-section">
-                    <div class="col-xs-12 col-md-6 col-md-offset-3">
-                        <div class="media">
-                            <div class="gigs-table text-center">
-                                <h4 style="color: yellow;">Upcoming</h4>
-                                <table class="table gigs-table ">
-                                    <thead class="text-center">
-                                        <tr>
-                                            <th class="upcoming">Date/Time</th>
-                                            <th class="upcoming">Venue</th>
-                                            <th class="upcoming">Playing alongside...</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody class="text-center">
-                                        <tr>
-                                            <td class="upcoming">01/02/2025 @ 10pm</td>
-                                            <td class="upcoming">Coral Snake</td>
-                                            <td class="upcoming">The Side Saddles, TC Jester</td>
-                                        </tr>
-                                         <tr>
-                                            <td class="upcoming">01/23/2025 @ 10pm</td>
-                                            <td class="upcoming">Chess Club</td>
-                                            <td class="upcoming">TBD</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                                <h4 class="white-title">Past</h4>
-                                <table class="table gigs-table ">
-                                    <thead class="text-center">
-                                        <tr>
-                                            <th>Date</th>
-                                            <th>Venue</th>
-                                            <th>Playing alongside...</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody class="text-center">
-                                        <tr>
-                                            <td>12/08/2024 @ 4pm</td>
-                                            <td>Sahara Lounge</td>
-                                            <td>Ms. Cool, Phauna, Wendy Ward Band </td>
-                                        </tr>
-                                         <tr>
-                                            <td>12/14/2024 @ 5pm</td>
-                                            <td>The Aristocrat Lounge</td>
-                                            <td>Awesome Death, Frank Mustard Project</td>
-                                        </tr>
-                                        <tr>
-                                            <td>11/16/2024 @ 645pm</td>
-                                            <td>Hotel Vegas</td>
-                                            <td>Semihelix, Paper Sister</td>
-                                        </tr>
-                                        <tr>
-                                            <td>10/05/2024 @ 4pm</td>
-                                            <td>Knomad</td>
-                                            <td>Tish, Ivy Mine</td>
-                                        </tr>
-                                        <tr>
-                                            <td>10/02/2024 @ 8pm</td>
-                                            <td>Hotel Vegas</td>
-                                            <td>Hideout</td>
-                                        </tr>
-                                        <tr>
-                                            <td>09/14/2024 @ 8pm</td>
-                                            <td>The Coral Snake</td>
-                                            <td>Candy Riot, Elephant Tiger, Whalers</td>
-                                        </tr>
-                                         <tr>
-                                            <td>08/22/2024 @ 11:30pm</td>
-                                            <td>Valhalla </td>
-                                            <td>Miss Guilty, Winkler Mill</td>
-                                        </tr>
-                                        <tr>
-                                            <td>07/21/2024</td>
-                                            <td>Sahara Lounge</td>
-                                            <td>Miss Guilty, Exploding Violets</td>
-                                        </tr>
-                                        <tr>
-                                            <td>06/22/2024</td>
-                                            <td>Knomad</td>
-                                            <td>Wild Heaven, A-one-A</td>
-                                        </tr>
-                                        <tr>
-                                            <td>06/15/2024</td>
-                                            <td>Friendly Rio Market</td>
-                                            <td>Cobra Cats, Prom Threat</td>
-                                        </tr>
-                                        <tr>
-                                            <td>05/04/2024</td>
-                                            <td>Love Wheel Records</td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>03/05/2024</td>
-                                            <td>The Coral Snake</td>
-                                            <td>La Fermata!</td>
-                                        </tr>
-                                        <tr>
-                                            <td>01/11/2024</td>
-                                            <td>Carousel Lounge</td>
-                                            <td> v-ctrl</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                                <br>
-                            </div>
-                        </div>
-                    </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <h3 class="white-title">booking inquiries: <span style="color: #FF204E;">tinyspecksATX@gmail.com</span></h3>
+                    <br>
                 </div>
-                <div class="row">
-                    <div class="col-xs-12">
-                        <h3 class="white-title">booking inquiries: <span style="color: #FF204E;">tinyspecksATX@gmail.com</span></h3>
-                        <br>
-                    </div>
-                </div>
-            </section>
-            <!-- /.shows -->
-        </div>
+            </div>
+        </section>
+        <!-- /.shows -->
     </div>
     <div class="container-wrapper music-container">
         <div class="container-fluid content-container">
@@ -473,6 +437,19 @@
                 }
             });
         });
+    </script>
+    <script>
+        function toggleTable() {
+        const table = document.getElementById("past-table");
+        const header = document.querySelector(".dropdown-header");
+            if (table.style.display === "none" || table.style.display === "") {
+                table.style.display = "table";
+                header.classList.add("expanded");
+            } else {
+                table.style.display = "none";
+                header.classList.remove("expanded");
+            }
+        }
     </script>
 </body>
 

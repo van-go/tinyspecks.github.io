@@ -442,13 +442,12 @@
         function toggleTable() {
             const table = document.getElementById("past-table");
             const header = document.querySelector(".dropdown-header");
-        
-            if (table.classList.contains("expanded")) {
-                table.classList.remove("expanded");
-                table.style.display = "none";
-            } else {
-                table.classList.add("expanded");
+            if (table.style.display === "none" || table.style.display === "") {
                 table.style.display = "table";
+                header.classList.add("expanded");
+            } else {
+                table.style.display = "none";
+                header.classList.remove("expanded");
             }
         }
     </script>

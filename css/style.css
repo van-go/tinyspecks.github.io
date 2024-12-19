@@ -526,31 +526,22 @@ body table {
     vertical-align: middle;
 }
 
-/* Dropdown arrow styling */
-.dropdown-header {
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px; /* Add space between the header and the table */
-}
-
-.dropdown-header h4 {
-    margin: 0;
-}
-
-.dropdown-header .arrow {
-    margin-left: 10px;
-    transition: transform 0.3s;
-}
-
-/* Rotate the arrow when the dropdown is expanded */
-.dropdown-header.expanded .arrow {
-    transform: rotate(90deg);
-}
-
-/* Hide the table initially */
+/* Ensure the table expands fully when displayed */
 #past-table {
-    display: none;
+    display: none; /* Initially hidden */
+    max-height: none; /* Remove any height limit */
+    overflow: visible; /* Ensure rows are not clipped */
+    transition: max-height 0.3s ease; /* Smooth transition (optional) */
+}
+
+/* Dropdown expanded styles */
+#past-table.expanded {
+    display: table; /* Show the table */
+}
+
+/* Optional: Ensure the parent container allows full height */
+.gigs-table {
+    overflow: visible; /* Ensure no clipping of content */
 }
 
 /*........................................................ Music Section */

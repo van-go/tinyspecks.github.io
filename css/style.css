@@ -712,6 +712,21 @@ video {
     cursor: pointer;
 }
 
+.band-members-row {
+  display: flex;
+  flex-wrap: wrap; /* allows it to wrap on smaller screens */
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* optional spacing between items */
+  text-align: center;
+}
+
+.band-members-row h3 {
+  margin: 0;
+  white-space: nowrap; /* keeps names from breaking across lines */
+}
+
+
 /*............................................................ Social Footer */
 
 /* basic font settings */

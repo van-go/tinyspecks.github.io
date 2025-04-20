@@ -546,34 +546,18 @@
         }
     </script>
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const gallery = document.getElementById('gallery');
-            const images = Array.from(gallery.querySelectorAll('.gallery-img'));
-
-            if (window.innerWidth <= 768) {
-                // Shuffle and pick 9 random images
-                const selectedImages = images.sort(() => 0.5 - Math.random()).slice(0, 9);
-
-                // Clear the gallery
-                gallery.innerHTML = '';
-
-                // Add the selected images to the gallery
-                selectedImages.forEach(img => {
-                    gallery.appendChild(img);
-                });
-            }
-            else {
-                // Shuffle and pick 9 random images
-                const selectedImages = images.sort(() => 0.5 - Math.random()).slice(0, 16);
-
-                // Clear the gallery
-                gallery.innerHTML = '';
-
-                // Add the selected images to the gallery
-                selectedImages.forEach(img => {
-                    gallery.appendChild(img);
-                });
-            }
+        document.addEventListener('DOMContentLoaded', function () {
+          const gallery = document.getElementById('gallery');
+          const images = Array.from(gallery.querySelectorAll('.gallery-img'));
+        
+          const numImages = window.innerWidth <= 768 ? 3 : 4;
+          const selectedImages = images.sort(() => 0.5 - Math.random()).slice(0, numImages);
+        
+          gallery.innerHTML = '';
+        
+          selectedImages.forEach(img => {
+            gallery.appendChild(img);
+          });
         });
     </script>
     <script>

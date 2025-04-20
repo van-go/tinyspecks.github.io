@@ -724,6 +724,7 @@ video {
 .member-name {
   margin: 0;
   white-space: nowrap;
+  color: yellow;
 }
 
 .separator {

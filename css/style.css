@@ -719,6 +719,7 @@ video {
   flex-wrap: wrap; /* Allows wrapping on small screens */
   gap: 10px;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 .member-name {

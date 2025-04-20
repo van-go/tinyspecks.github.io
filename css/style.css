@@ -713,11 +713,23 @@ video {
 }
 
 .band-members-row {
-  font-size: 14px;
-    color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* Allows wrapping on small screens */
+  gap: 10px;
+  text-align: center;
 }
 
+.member-name {
+  margin: 0;
+  white-space: nowrap;
+}
 
+.separator {
+  color: white;
+  margin: 0;
+}
 
 /*............................................................ Social Footer */
 

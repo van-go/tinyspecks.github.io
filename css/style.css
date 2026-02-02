@@ -64,7 +64,7 @@ a:hover {
 .callout-container {
     height: auto;
     min-height: 1000px;
-    background-image: url('../images/tiny_specks_background_EP.png');
+    background-image: url('../images/webpage_main.png');
     background-size: cover;
     background-position: 50% 25%;;
     background-repeat: no-repeat;
@@ -757,7 +757,7 @@ video {
 
     /*............................................................  Containers */
     .callout-container {
-        background-image: url('../images/tiny_specks_background_media.webp');
+        background-image: url('../images/webpage_main_small.png');
         min-height: 500px;
         /* height: 100vh; /* Full viewport height */
         /* width: 100%; /* Full viewport width */

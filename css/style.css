@@ -524,8 +524,14 @@ blockquote {
 .gigs-table td.upcoming,
 .gigs-table th.upcoming {
     color: #FCD900 !important;
+}
+
+.gigs-table td.upcoming-title,
+.gigs-table th.upcoming-title {
+    color: #FCD900 !important;
     font-weight: bold;
 }
+
 
 /* sets color of text inside table to white */
 body table {

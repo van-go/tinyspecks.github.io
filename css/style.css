@@ -521,17 +521,13 @@ blockquote {
     color: white;
 }
 
-.gigs-table td.upcoming,
-.gigs-table th.upcoming {
+.gigs-table .upcoming {
     color: #FCD900 !important;
 }
 
-.gigs-table td.upcoming-title,
-.gigs-table th.upcoming-title {
-    color: #FCD900 !important;
+.gigs-table .upcoming-title {
     font-weight: bold;
 }
-
 
 /* sets color of text inside table to white */
 body table {

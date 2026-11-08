@@ -145,7 +145,7 @@ a:hover {
 
 /* background image settings */
 .gigs-container {
-    background-image: url("../images/band_live.png");
+    background-image: url("../images/band-live-new-bw.png");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -271,7 +271,7 @@ a:hover {
 }
 
 .presskit-container {
-    background-image: url("../images/Tweedys_4.png");
+    background-image: url("../images/band-press-kit-new-bw.png");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
